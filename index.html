@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Drew Project</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div>
+    <nav class="relative container mx-auto p-6">
+      <!-- Flex Container -->
+      <div class="flex items-center justify-between">
+        <!-- Brand -->
+        <div class="pt-2">
+          <span class="text-black font-bold pr-3">
+            Drew Project
+          </span>
+          <span class="text-gray-600 text-sm">
+            Cool Tagline
+          </span>
+        </div>
+        <!-- Menu Items -->
+        <div class="space-x-6 md:flex">
+          <a href="#" class="hover:text-red-700">About Us</a>
+          <a href="#" class="hover:text-red-700">Sth</a>
+          <a href="#" class="hover:text-red-700">Sth</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="hero" class="bg-yellow-300">
+    <!-- Flex Container -->
+    <div class="container flex-1 flex-col items-center px-6 mx-auto py-10 space-y-0 md:space-y-0 md:flex-row">
+      <h1 class="max-w-md text-4xl font-bold text-center pb-6 md:text-5xl md:text-left">
+        Bring everyone together with agriculture
+      </h1>
+      <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, consequuntur. Dolorem dignissimos quibusdam
+        eveniet ea dolor illo nisi nihil aliquam molestias omnis? Similique deserunt accusantium doloribus quasi atque
+        temporibus ullam!
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <!-- Flex Container -->
+    <div class="container flex flex-col items-center px-6 mx-auto py-10 space-y-0 md:space-y-0 md:flex-row">
+      <!-- Left Item -->
+      <div class="flex flex-col space-y-12 md:w-1/2">
+        <h1 class="max-w-md text-3xl font-bold text-center md:text-4xl md:text-left">
+          Get In Touch
+        </h1>
+        <div class="max-w-sm flex flex-col space-y-3 text-white text-center md:text-left">
+          <a href="#" class="text-black hover:text-green-700">hello@email.com</a>
+          <a href="#" class="text-black hover:text-green-700">+254 723 456 789</a>
+        </div>
+      </div>
+      <!-- Right Item -->
+      <div class="flex flex-col pt-5 md:w-1/2 md:pt-0">
+        <form>
+          <div class="space-y-2">
+            <input type="text" class="flex px-4 py-2 rounded-lg focus:outline-none" placeholder="Name" />
+            <input type="tel" class="flex px-4 py-2 rounded-lg focus:outline-none" placeholder="Phone" />
+            <input type="email" class="flex px-4 py-2 rounded-lg focus:outline-none" placeholder="Email" />
+            <textarea name="message" id="message" cols="30" rows="3"
+              class="flex px-4 py-2 rounded-lg focus:outline-none" placeholder="Message"></textarea>
+          </div>
+        </form>
+      </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="cta" class="bg-green-300">
+    <!-- Flex Container -->
+    <div
+      class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+      <!-- Heading -->
+      <h2 class="text-5xl font-bold text-center text-black md:text-4xl md:max-w-xl md:text-left">
+        Lorem ipsum dolor sit amet.
+      </h2>
+      <!-- Button -->
+      <div>
+        <a href="#"
+          class="p-3 px-6 pt-2 text-green-900 bg-white rounded-full shadow-2xl baseline hover:bg-gray-700 hover:text-white">Get
+          In Touch Or Something
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-green-900">
+    <!-- Flex Container -->
+    <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+      <!-- Brand Details-->
+      <div
+        class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+        <div class="mx-auto my-6 text-center text-white md:hidden">
+          Copyright &copy; 2023, All Rights Reserved
+        </div>
+        <!-- Brand -->
+        <div>
+          <span class="text-bold text-xl text-white">
+            Drew Project
+          </span>
+        </div>
+      </div>
+
+      <!-- List Container -->
+      <div class="flex justify-around space-x-32">
+        <div class="flex flex-col space-y-3 text-white">
+          <a href="#" class="hover:text-red-700">Twitter</a>
+          <a href="#" class="hover:text-red-700">Facebook</a>
+          <a href="#" class="hover:text-red-700">YouTube</a>
+        </div>
+        <div class="flex flex-col space-y-3 text-white">
+          <a href="#" class="hover:text-red-700">About Us</a>
+          <a href="#" class="hover:text-red-700">Something</a>
+          <a href="#" class="hover:text-red-700">Something</a>
+        </div>
+      </div>
+
+      <!-- Input Container -->
+      <!-- <div class="flex flex-col justify-between">
+        <form>
+          <div class="flex space-x-3">
+            <input type="text" class="flex-1 px-4 rounded-full focus:outline-none"
+              placeholder="Updates in your inbox" />
+            <button class="px-6 py-2 text-blue-950 rounded-full bg-yellow-300 hover:bg-gray-700 focus:outline-none">
+              Go
+            </button>
+          </div>
+        </form>
+        <div class="hidden text-white md:block">
+          Copyright &copy; 2023, All Rights Reserved
+        </div>
+      </div> -->
+    </div>
+  </footer>
+
+</body>
+
+</html>
