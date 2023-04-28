@@ -783,8 +783,20 @@ video {
   padding-top: 1.25rem;
 }
 
+.pr-0 {
+  padding-right: 0px;
+}
+
 .text-center {
   text-align: center;
+}
+
+.align-top {
+  vertical-align: top;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-3xl {
@@ -896,6 +908,14 @@ video {
   background: #000;
   transform: rotate(0);
   transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
 }
 
 .hover\:bg-gray-700:hover {
