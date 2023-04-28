@@ -17,7 +17,7 @@
       <div class="flex items-center justify-between">
         <!-- Brand -->
         <div class="pt-2">
-          <span class="text-black font-bold pr-3">
+          <span class="font-bold pr-3">
             Drew Project
           </span>
           <span class="text-gray-600 text-sm hidden md:block">
@@ -25,10 +25,27 @@
           </span>
         </div>
         <!-- Menu Items -->
-        <div class="space-x-6 md:flex">
+        <div class="hidden space-x-6 md:flex">
           <a href="#" class="hover:bg-yellow-300 hover:px-1 hover:transition-all">About Us</a>
           <a href="#" class="hover:bg-yellow-300 hover:px-1 hover:transition-all">Contact</a>
           <a href="#" class="hover:bg-yellow-300 hover:px-1 hover:transition-all">Sth Else</a>
+        </div>
+
+        <!-- Hamburger Icon -->
+        <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="md:hidden">
+        <div id="menu"
+          class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+          <a href="#">About Us</a>
+          <a href="#">Contact</a>
+          <a href="#">Sth Else</a>
         </div>
       </div>
     </nav>
@@ -86,7 +103,9 @@
               class="flex px-4 py-2 rounded-lg outline outline-1 outline-gray-300 shadow focus:outline-2 focus:outline-yellow-300"
               placeholder="Message"></textarea>
           </div>
-          <button class="block px-7 py-2 rounded-lg bg-yellow-300 w-full mx-auto hover:bg-green-900 hover:text-white hover:transition-all focus:outline-none"  type="submit">Send</button>
+          <button
+            class="block px-7 py-2 rounded-lg bg-yellow-300 w-full mx-auto hover:bg-green-900 hover:text-white hover:transition-all focus:outline-none"
+            type="submit">Send</button>
         </form>
       </div>
   </section>
@@ -103,7 +122,8 @@
       <!-- Button -->
       <div>
         <a href="#"
-          class="p-3 px-6 pt-2 text-green-900 bg-white rounded-lg shadow-2xl baseline hover:bg-yellow-300 hover:transition-all">Some Action
+          class="p-3 px-6 pt-2 text-green-900 bg-white rounded-lg shadow-2xl baseline hover:bg-yellow-300 hover:transition-all">Some
+          Action
         </a>
       </div>
     </div>
@@ -161,7 +181,7 @@
       </div> -->
     </div>
   </footer>
-
+  <script src="js/script.js"></script>
 </body>
 
 </html>
